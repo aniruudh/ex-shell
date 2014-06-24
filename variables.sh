@@ -37,6 +37,10 @@ echo $message
 unset message 						# No qualifying $
 echo $message
 
+# Local vs Global Variables
+vech="Bus"							# Local variable
+export VECH="Bus"					# Global variable
+
 # -----------------
 # SPECIAL VARIABLES
 # -----------------
